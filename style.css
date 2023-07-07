@@ -342,6 +342,10 @@ footer p {
         grid-template-areas: "grid-2" "grid-1" "grid-3" "grid-4" "grid-5" "grid-6";
         justify-self: center;
     }
+
+    .grid--items {
+        aspect-ratio: 1 / 1;
+    }
     
     main .grid--1,
     main .grid--4 {
